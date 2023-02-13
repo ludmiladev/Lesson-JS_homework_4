@@ -131,23 +131,32 @@
 // -------------------------------------------------------------------------------------------------
 // створити функцію sum(arr)яка приймає масив чисел, сумує значення елементів масиву та повертає його.
 // Приклад sum([1,2,10]) //->13
-function arrSum (arr) {
-    let sum = 0;
-    for (let i = 0; i < arr.length; i++) {
-        sum += arr[i];
 
-    }
-    return sum;
-}
-console.log(arrSum([5, 1, 4]));
+// function arrSum (arr) {
+//     let sum = 0;
+//     for (let i = 0; i < arr.length; i++) {
+//         sum += arr[i];
+//
+//     }
+//     return sum;
+// }
+// console.log(arrSum([5, 1, 4]));
 //---------------------------------------------------------------------------------------------------
 
 // створити функцію swap(arr,index1,index2).
 // Функція міняє місцями заняення у відаовідних індексах
 // Приклад swap([11,22,33,44],0,1) //=> [22,11,33,44]
-
-
-
-
+// function swap (arr, index1, index2) {
+//     const x1 = arr[index1];
+//     const x2 = arr[index2];
+//     arr[index2] = x1;
+//     arr[index1] = x2;
+//
+//     return arr;
+// }
+// console.log(swap([1,2,3,4],0,1));
+// console.log(swap([6,7,8,9],2,1));
+// console.log(swap([5,6,7,8],3,0));
+//---------------------------------------------------------------------------------------------------
 // Написати функцію обміну валюти exchange(sumUAH,currencyValues,exchangeCurrency)
 // Приклад exchange(10000,[{currency:'USD',value:40},{currency:'EUR',value:42}],'USD') // => 250

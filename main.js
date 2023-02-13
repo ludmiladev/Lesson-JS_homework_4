@@ -160,3 +160,14 @@
 //---------------------------------------------------------------------------------------------------
 // Написати функцію обміну валюти exchange(sumUAH,currencyValues,exchangeCurrency)
 // Приклад exchange(10000,[{currency:'USD',value:40},{currency:'EUR',value:42}],'USD') // => 250
+
+// function exchange (sumUAH, currencyValues, exchangeCurrency) {
+//     let value;
+//     for (number of currencyValues) {
+//         if (number.currency === exchangeCurrency) {
+//             value = number.value;
+//         }
+//     }
+//     return sumUAH / value;
+// }
+// console.log(exchange(1000,[{currency:'USD',value:40},{currency:'EUR',value:42}],'USD'));
